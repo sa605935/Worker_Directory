@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+.fa {
+	color: white;
+	font-size: larger;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fa:hover {
+	color: rgb(17, 155, 235);
+	cursor: pointer;
+	font-size: larger;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.jumbotron {
+	background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);
+	background-size: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.display-4 {
+	font-family: 'Alata', sans-serif;
+	font-weight: bold;
+	color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header {
+	width: 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.table td,
+.table th {
+	vertical-align: middle;
+}
+
+#headerImage:hover {
+	color: white;
+	cursor: default;
 }
